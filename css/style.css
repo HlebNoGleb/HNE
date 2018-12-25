@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body,
+html {
+  background-color: red;
+  height: 300vh;
+  overflow-x: hidden;
+}
+
+.snow {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.img_HNE{
+	position: relative; 
+ height: 0; 
+ width: 100%; 
+ padding: 0;
+ padding-top: 40%; 
+}
+.img_HNE svg{
+	position: absolute; 
+ height: 100%; 
+ width: 100%; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);	
+}
